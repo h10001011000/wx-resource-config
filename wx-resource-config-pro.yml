@@ -5,7 +5,7 @@ wx:
       - name: password
         gzh: 酸豆君
         type: 49
-        regex: <strong>密码: (.+?)</strong>
+        regex: "<strong>密码: (.+?)</strong>"
       - name: url
         gzh: 酸豆君
         type: 49
