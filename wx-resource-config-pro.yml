@@ -9,5 +9,5 @@ wx:
       - name: url
         gzh: 酸豆君
         type: 49
-        regex: 'msg_source_url = ''(.+?)''';
+        regex: "msg_source_url = '(.+?)'";
 ver: 1.0.0
