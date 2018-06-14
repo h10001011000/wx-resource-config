@@ -1,3 +1,14 @@
 wx:
   gzh: 酸豆君,梦想情报局,豪杰电影
+  find-rule:
+    rule:
+      - name: password
+        gzh: 酸豆君
+        type: 49
+        regex: '<strong>密码: (.+?)</strong>'
+      - name: url
+        gzh: 酸豆君
+        type: 49
+        regex: "msg_source_url = '(.+?)';"
+
 ver: 1.0.0
