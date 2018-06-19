@@ -6,6 +6,10 @@ wx:
         gzh: '*'
         msgtype: 49
         regex: "msg_source_url = '(.+?)';"
+      - name: title
+        gzh: '*'
+        msgtype: 49
+        regex: "msg_title = '(.+?)';"
       - name: pwd
         gzh: 酸豆君
         msgtype: 49
