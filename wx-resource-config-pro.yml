@@ -3,6 +3,31 @@ wx:
   find-rule:
     rules:
       - name: url
-        gzh: *
+        gzh: '*'
         msgtype: 49
+        regex: "msg_source_url = '(.+?)';"
+      - name: pwd
+        gzh: 酸豆君
+        msgtype: 49
+        regex: '<strong>密码: (.+?)</strong>'
+      - name: url
+        gzh: 酸豆君
+        msgtype: 1
+        regex: "<br/><br/>|<BR/><BR/>"
+      - name: pwd
+        gzh: 酸豆君
+        msgtype: 1
+        regex: '密码: '
+      - name: pwd
+        gzh: 豪杰电影
+        msgtype: 49
+        regex: '提取码</span></strong></span><span style="font-size: 18px;color: rgb\(217, 33, 66\);"><strong><span style="font-size: 18px;widows: 2;">(.+?)</span><split>提取码<span style="color:#0052ff;">(.+?)</span>'
+      - name: exclud
+        gzh: 酸豆君
+        msgtype: 49
+        regex: '<strong>密码: (.+?)</strong>'
+      - name: pwd
+        gzh: 梦想情报局
+        msgtype: 49
+        regex: '密码：<span style="color: rgb(255, 0, 0);">(.+?)</span>'
 ver: 1.0.0
