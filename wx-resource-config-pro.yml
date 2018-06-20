@@ -33,5 +33,5 @@ wx:
       - name: pwd
         gzh: 梦想情报局
         msgtype: 49
-        regex: '密码：<span style="color: rgb(255, 0, 0);">(.+?)</span>'
+        regex: '密码：<span style="color: rgb\(255, 0, 0\);">(.+?)</span>'
 ver: 1.0.0
