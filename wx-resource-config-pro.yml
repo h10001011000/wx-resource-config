@@ -9,7 +9,7 @@ wx:
       - name: title
         gzh: '*'
         msgtype: 49
-        regex: "msg_title = '(.+?)';"
+        regex: 'msg_title = "(.+?)";<split>msg_title = ''(.+?)'';'
       - name: pwd
         gzh: 酸豆君
         msgtype: 49
