@@ -9,7 +9,7 @@ wx:
       - name: title
         gzh: '*'
         msgtype: 49
-        regex: 'msg_title = "(.+?)";<split>msg_title = ''(.+?)'';'
+        regex: 'msg_title = "(.+?)";<or>msg_title = ''(.+?)'';'
       - name: pwd
         gzh: 酸豆君
         msgtype: 49
@@ -25,7 +25,7 @@ wx:
       - name: pwd
         gzh: 豪杰电影
         msgtype: 49
-        regex: '提取码</span></strong></span><span style="font-size: 18px;color: rgb\(217, 33, 66\);"><strong><span style="font-size: 18px;widows: 2;">(.+?)</span><split>提取码<span style="color:#0052ff;">(.+?)</span>'
+        regex: '提取码</span></strong></span><span style="font-size: 18px;color: rgb\(217, 33, 66\);"><strong><span style="font-size: 18px;widows: 2;">(.+?)</span><or>提取码<span style="color:#0052ff;">(.+?)</span>'
       - name: exclud
         gzh: 酸豆君
         msgtype: 49
