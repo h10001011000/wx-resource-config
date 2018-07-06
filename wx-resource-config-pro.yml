@@ -34,7 +34,7 @@ wx:
         gzh: 豪杰电影
         msgtype: 1
         regex: '密码:(.+?)<br/><or>密码:(.{4}?)'
-       - name: title
+      - name: title
         gzh: 豪杰电影
         msgtype: 1
         regex: '(.+?)<br/>'
